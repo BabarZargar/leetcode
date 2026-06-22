@@ -9,6 +9,10 @@ bool isPalindrome(int x) {
         num = num*10 + r;
         x/=10;
     }
-    return(num == temp);
+    if(temp == num) {
+        return 1;
+    } else {
+        return 0;
+    }
     
 }
