@@ -7,7 +7,7 @@ bool isPalindrome(int x) {
     while (x!=0){
         r = x%10;
         num = num*10 + r;
-        x = x/10;
+        x/=10;
     }
     return(num == temp);
     
